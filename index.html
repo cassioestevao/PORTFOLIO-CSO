@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência CSO | Cássio Estevão</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo Agencia CSO">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Especialidade</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn_menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Especialidade</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+            </div>
+            <div class="overlay-menu" id="overlay-menu">
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <!--  Imagem de destaque -->
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>DESENVOLVEDOR WEB<span>.</span></h1>
+                        <p>Este WebSite foi desenvolvido por um estudante de Análise e Desenvolvimento de Sistemas, nascido em Ouro Branco - Minas Gerais.</p>
+                  
+                            <div class="btn-contato">
+                                <a href="#">
+                                    <button>Fale Comigo.</button>
+                                </a>
+                            </div>
+                        </div>
+                    <div class="img-topo-site">
+                        <img src="images/download.png" alt="Cássio Estevão">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- especialidade -->
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-py"></i>
+                        <h3>Python</h3>
+                        <p>Python é uma linguagem de programação versátil e poderosa, amplamente utilizada em diversos campos, desde desenvolvimento web e científico até automação de tarefas.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>JavaScript é uma linguagem de programação essencial para o desenvolvimento web moderno. Com ela, é possível criar páginas interativas e dinâmicas.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-database"></i>
+                        <h3>MySQL</h3>
+                        <p>MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto amplamente utilizado em aplicações web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/perfil.png" alt="">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU O CÁSSIO ESTEVÃO.</span></h2>
+                        <p>Olá! Meu nome é Cássio Estevão, e sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e programação. Atualmente, estou focado em aprimorar minhas habilidades em Python e JavaScript, buscando sempre aprender e evoluir no mundo do desenvolvimento web.</p>
+                        <p>Com experiência tanto em backend quanto em frontend, já desenvolvi diversos projetos utilizando Python para criar sistemas eficientes e de alta qualidade. Além disso, também tenho conhecimento em JavaScript, o que me permite criar interfaces web dinâmicas e interativas.</p>
+                        <div class ="btn-social">
+                            <a href="https://www.linkedin.com/in/cassioestevao"><Button><i class="bi bi-linkedin"></i></Button></a>
+                            <a href="https://github.com/cassioestevao"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/cassioestevao"><button><i class="bi bi-instagram"></i></button></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--  Projetos -->
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/projetos.jpg) ;">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projetos.jpg) ;">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projetos.jpg) ;">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">ENVIAR <span>MENSAGEM</span></h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Digite o seu nome :">
+                    <input type="text" name="" id="" placeholder="Digite o seu E-mail :" required>
+                    <input type="text" name="" id="" placeholder="Digite seu telefone :">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logo da CSO Agência">
+                    </div>
+                    <div class ="btn-social">
+                        <a href="https://www.linkedin.com/in/cassioestevao"><Button><i class="bi bi-linkedin"></i></Button></a>
+                        <a href="https://github.com/cassioestevao"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.instagram.com/cassioestevao"><button><i class="bi bi-instagram"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i>  <a href="mailto:cassioestevaops@gmail.com">  cassioestevaoprogram@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
