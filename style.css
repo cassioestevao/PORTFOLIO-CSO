@@ -173,14 +173,32 @@ section.topo-do-site .flex{
 
 .topo-do-site .img-topo-site img{
     position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    animation: flutuar 1s ease-in-out infinite alternate;
+}
+.img-sobre{
+    border-radius: 280px 280px 250px 250px;
+    box-shadow: 2px 2px 120px 0 purple;
+}
+
+.sobre .img-sobre{
+    position: relative;
+    animation: ladoalado 2s ease-in-out infinite alternate;
 }
 @keyframes flutuar{
     0% {
         top:0;
     }
     100%{
-        top: 30px;
+        top: 50px;
+    }   
+}
+
+@keyframes ladoalado{
+    0% {
+        left:0;
+    }
+    100%{
+        left: 30px;
     }
 }
 /* ESTILOS DAS ESPECIALIDADES */
@@ -377,6 +395,9 @@ footer .line-footer p a{
     }
 
     .topo-do-site .img-topo-site img{
+        padding: 20px;
+        box-shadow: 5px 5px 5px 5px purple  ;
+        border-radius: 20px;
         width: 100%;
     }
 
@@ -423,4 +444,3 @@ footer .line-footer p a{
         text-align: center;
     }
 }
-
