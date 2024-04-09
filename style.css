@@ -173,11 +173,10 @@ section.topo-do-site .flex{
 
 .topo-do-site .img-topo-site img{
     position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    animation: flutuar 1s ease-in-out infinite alternate;
 }
 .img-sobre{
-    border-radius: 280px 280px 250px 250px;
-    box-shadow: 2px 2px 120px 0 purple;
+    border-radius: 50%
 }
 
 .sobre .img-sobre{
@@ -189,7 +188,7 @@ section.topo-do-site .flex{
         top:0;
     }
     100%{
-        top: 30px;
+        top: 50px;
     }   
 }
 
@@ -402,11 +401,11 @@ footer .line-footer p a{
     }
 
     section.especialidade{
-        padding: 40px 8%;
+        padding: 20px 8%;
     }
     /* sobre */
     section.sobre{
-        padding: 80px 8%;
+        padding: 40px 8%;
     }
 
     .sobre .txt-sobre h2{
@@ -423,7 +422,7 @@ footer .line-footer p a{
     }
     /* portifolio */
     section.portfolio{
-        padding: 80px 8%;
+        padding: 40 px 8%;
     }
 
     .img-port{
